@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     print("Job-Averaged Statistics:")
     print("\nAverage interarrival Time: {0}\nAverage service time: {1}\nAverage delay: {2}".format(a_inter,a_s,a_d))
-    print("Recall: {0}\nArrival rate: {1}\nService rate: {2}".format(a_w,a_rate,s_rate))
+    print("Average time in node: {0}\nArrival rate: {1}\nService rate: {2}".format(a_w,a_rate,s_rate))
     print("\nTime-Averaged Statistics:")
     print("\nTime-averaged number in the queue:",time_q)
     print("Time-averaged number in service:",time_x)
